@@ -1,7 +1,7 @@
 <h1 align="center">
   <div>
     <a href="https://github.com/CalzaAlessandro/martini-linear-pfas" target="_blank">
-      <img src="LinearPFAS.png" alt="Martini3 Linear PFAS" height="150">
+      <img src="./LinearPFAS.png" alt="Martini3 Linear PFAS" height="150">
     </a>
   </div>
 </h1>
