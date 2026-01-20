@@ -1,0 +1,59 @@
+# This file was created Wed Jun 25 16:36:55 2025
+# Created by:
+#                     :-) GROMACS - gmx analyze, 2023.4 (-:
+# 
+# Executable:   /usr/local/gromacs-2023.4/bin/gmx
+# Data prefix:  /usr/local/gromacs-2023.4
+# Command line:
+#   gmx analyze -f SASA-AA.xvg -bw 0.01 -dist distr-SASA-AA.xvg
+# gmx analyze is part of G R O M A C S:
+#
+# Getting the Right Output Means no Artefacts in Calculating Stuff
+#
+@    title "Distribution"
+@    xaxis  label ""
+@    yaxis  label ""
+@TYPE xy
+ 4.35  0
+ 4.36  0
+ 4.37  0.00499995
+ 4.38  0.0099999
+ 4.39  0.0359996
+ 4.4  0.119999
+ 4.41  0.356996
+ 4.42  0.698993
+ 4.43  1.27699
+ 4.44  1.84198
+ 4.45  2.30098
+ 4.46  2.63697
+ 4.47  2.65297
+ 4.48  2.59597
+ 4.49  2.91397
+ 4.5  2.85997
+ 4.51  5.30095
+ 4.52  6.21294
+ 4.53  10.1029
+ 4.54  9.8649
+ 4.55  12.3839
+ 4.56  9.06791
+ 4.57  8.69891
+ 4.58  5.04995
+ 4.59  4.19596
+ 4.6  2.25998
+ 4.61  2.01198
+ 4.62  1.25999
+ 4.63  1.08499
+ 4.64  0.863991
+ 4.65  0.610994
+ 4.66  0.322997
+ 4.67  0.183998
+ 4.68  0.096999
+ 4.69  0.0519995
+ 4.7  0.0309997
+ 4.71  0.0199998
+ 4.72  0.0109999
+ 4.73  0.00099999
+ 4.74  0.00299997
+ 4.75  0
+ 4.76  0.00099999
+ 4.77  0

@@ -1,0 +1,47 @@
+# This file was created Thu May 15 17:25:46 2025
+# Created by:
+#                     :-) GROMACS - gmx analyze, 2023.4 (-:
+# 
+# Executable:   /usr/local/gromacs-2023.4/bin/gmx
+# Data prefix:  /usr/local/gromacs-2023.4
+# Command line:
+#   gmx analyze -f SASA-AA.xvg -bw 0.01 -dist distr-SASA-AA.xvg
+# gmx analyze is part of G R O M A C S:
+#
+# Good ROcking Metal Altar for Chronical Sinners
+#
+@    title "Distribution"
+@    xaxis  label ""
+@    yaxis  label ""
+@TYPE xy
+ 3.83  0
+ 3.84  0.00099999
+ 3.85  0.0109999
+ 3.86  0.0619994
+ 3.87  0.279997
+ 3.88  0.922991
+ 3.89  2.30798
+ 3.9  4.76395
+ 3.91  7.60292
+ 3.92  10.5449
+ 3.93  12.3249
+ 3.94  12.1099
+ 3.95  10.1529
+ 3.96  7.51893
+ 3.97  5.77394
+ 3.98  3.78996
+ 3.99  3.47497
+ 4  3.31497
+ 4.01  4.43996
+ 4.02  3.27797
+ 4.03  3.26097
+ 4.04  1.79998
+ 4.05  1.34899
+ 4.06  0.521995
+ 4.07  0.261997
+ 4.08  0.0869991
+ 4.09  0.0309997
+ 4.1  0.0099999
+ 4.11  0.00299997
+ 4.12  0
+ 4.13  0

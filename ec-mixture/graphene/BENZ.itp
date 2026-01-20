@@ -1,0 +1,46 @@
+;;;;;; Martini 3 small molecule topology for BENZENE (BENZ)
+;
+; Description:
+;   Topology with optimized bond lengths.
+;   
+;
+; Reference(s):
+;   R Alessandri, et al., Adv. Theory Simul., 2022, DOI: https://doi.org/10.1002/adts.202100391
+;
+;   Souza, P.C.T.; Alessandri, R.; Barnoud, J.; Thallmair, S.; Faustino, I.; Grunewald, F.; Patmanidis, I.; Abdizadeh, H.; Bruininks, B.M.H.; 
+;   Wassenaar, T.A.; Kroon, P.C.; Melcr, J.; Nieto, V.; Corradi, V.; Khan, H.M.; Domanski, J.; Javanainen, M.; Martinez-Seara, H.; 
+;   Reuter, N.; Best, R.B.; Vattulainen, I.; Monticelli, L.; Periole, X.; Tieleman, D.P.; de Vries, A.H.; Marrink, S.J.;  Nature Methods 
+; 2021; 10.1038/s41592-021-01098-3
+;
+;
+; Category
+;       small molecule
+;
+; Name
+;       benzene
+;
+; Alias
+;       BENZ
+;
+; Force field
+;       martini3001
+;
+; Version
+;       1.0
+;
+
+[moleculetype]
+; molname       nrexcl
+  BENZ            1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   TC5   1     BENZ  R1    1     0 
+  2   TC5   1     BENZ  R2    2     0 
+  3   TC5   1     BENZ  R3    3     0 
+
+[constraints]
+; i j   funct   length
+  1 2       1     0.290 ; cog
+  2 3       1     0.290 ; cog
+  1 3       1     0.290 ; cog

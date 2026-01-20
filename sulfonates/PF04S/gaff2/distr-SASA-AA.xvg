@@ -1,0 +1,52 @@
+# This file was created Wed Jun 25 11:32:44 2025
+# Created by:
+#                     :-) GROMACS - gmx analyze, 2023.4 (-:
+# 
+# Executable:   /usr/local/gromacs-2023.4/bin/gmx
+# Data prefix:  /usr/local/gromacs-2023.4
+# Command line:
+#   gmx analyze -f SASA-AA.xvg -bw 0.01 -dist distr-SASA-AA.xvg
+# gmx analyze is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Distribution"
+@    xaxis  label ""
+@    yaxis  label ""
+@TYPE xy
+ 4.01  0
+ 4.02  0.00199998
+ 4.03  0.00499995
+ 4.04  0.0209998
+ 4.05  0.123999
+ 4.06  0.404996
+ 4.07  1.26999
+ 4.08  2.36598
+ 4.09  5.09295
+ 4.1  6.30694
+ 4.11  9.31791
+ 4.12  8.03092
+ 4.13  7.90992
+ 4.14  6.18794
+ 4.15  4.46996
+ 4.16  3.88896
+ 4.17  4.46296
+ 4.18  5.71694
+ 4.19  6.74493
+ 4.2  7.28493
+ 4.21  6.77493
+ 4.22  5.68594
+ 4.23  3.20497
+ 4.24  2.36698
+ 4.25  0.97699
+ 4.26  0.655993
+ 4.27  0.297997
+ 4.28  0.209998
+ 4.29  0.106999
+ 4.3  0.0729993
+ 4.31  0.0249998
+ 4.32  0.00899991
+ 4.33  0.00199998
+ 4.34  0
+ 4.35  0.00199998
+ 4.36  0

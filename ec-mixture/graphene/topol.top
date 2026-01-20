@@ -1,0 +1,43 @@
+#include "martini_v300/martini_v3.0.0.itp"
+#include "martini_v300/martini_v3.0.0_solvents_v1.itp"
+#include "martini_v300/martini_v3.0.0_ions_v1.itp"
+
+
+#include "GRA.itp"
+#include "PF08C.itp"
+#include "PF08S.itp"
+#include "DIOX.itp"
+#include "PHEN.itp"
+#include "BENZ.itp"
+#include "ANIL.itp"
+#include "TCLBZ.itp"
+#include "DCLBZ.itp"
+#include "ANTH.itp"
+#include "BZTA.itp"
+#include "INDO.itp"
+#include "CAFF.itp"
+#include "PCYM.itp"
+#include "TW.itp"
+
+[ system ]
+Martini 3.0.0 CG run in water
+
+[ molecules ]
+GRA          1
+PF08C	     488
+PF08S	     325
+DIOX	     163
+PHEN	     163
+BENZ	     122
+ANIL	     98
+TCLBZ	     65
+DCLBZ	     65
+ANTH	     65
+BZTA	     41
+INDO	     16
+CAFF	     8
+PCYM	     8
+W           206397
+NA               3258
+CL               2445
+TW              23323

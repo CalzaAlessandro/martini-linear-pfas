@@ -1,0 +1,52 @@
+; for use with GROMACS
+
+title                    = MD
+integrator               = md
+dt                       = 0.002
+nsteps                   = 250000000 ; 500ns
+nstcomm                  = 100
+nstxout                  = 0
+nstvout                  = 0
+nstfout                  = 0
+nstlog                   = 2500
+nstenergy                = 2500
+nstxout-compressed       = 2500 ; 100K frames
+compressed-x-precision   = 1000
+compressed-x-grps        = System
+energygrps               = System
+
+cutoff-scheme            = Verlet
+nstlist                  = 20
+ns_type                  = grid
+pbc                      = xyz
+verlet-buffer-tolerance  = 0.005
+
+; rvdw/rcoulomb need attention, it's slightly different in Amber force fields
+rlist = 1.0
+vdwtype = cutoff
+rvdw = 1.0 ; short-range van der Waals cutoff (in nm)
+vdw-modifier = Potential-shift-Verlet ; Amber specific
+DispCorr = EnerPres ; account for cut-off vdW scheme
+rcoulomb = 1.0 ; short-range electrostatic cutoff (in nm)
+coulombtype = PME ; Particle Mesh Ewald for long-range electrostatics
+fourierspacing = 0.125 ; grid spacing for FFT
+
+tcoupl                   = v-rescale 
+tc-grps                  = System
+tau_t                    = 1.0  
+ref_t                    = 300  
+
+Pcoupl                   = parrinello-rahman 
+Pcoupltype               = isotropic
+tau_p                    = 5.0
+compressibility          = 4.5e-5
+ref_p                    = 1.0  
+
+gen_vel                  = no
+gen_temp                 = 300
+gen_seed                 = -1
+periodic-molecules 	 = no
+continuation             = yes
+
+constraints              = h-bonds   ; bonds involving H are constrained
+constraint_algorithm     = Lincs

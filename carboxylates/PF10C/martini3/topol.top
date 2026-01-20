@@ -1,0 +1,13 @@
+#include "martini_v300/martini_v3.0.0.itp"
+#include "martini_v300/martini_v3.0.0_solvents_v1.itp"
+#include "martini_v300/martini_v3.0.0_ions_v1.itp"
+
+#include "PF10C.itp"
+
+[ system ]
+Martini 3.0.0 CG run in water
+
+[ molecules ]
+PF10C        1
+W           954
+NA               1

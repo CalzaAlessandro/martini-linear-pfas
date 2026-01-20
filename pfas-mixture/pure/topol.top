@@ -1,0 +1,30 @@
+#include "martini_v300/martini_v3.0.0.itp"
+#include "martini_v300/martini_v3.0.0_solvents_v1.itp"
+#include "martini_v300/martini_v3.0.0_ions_v1.itp"
+
+
+#include "PF04C.itp"
+#include "PF05C.itp"
+#include "PF06C.itp"
+#include "PF08C.itp"
+#include "PF09C.itp"
+#include "PF04S.itp"
+#include "PF06S.itp"
+#include "PF08S.itp"
+#include "TW.itp"
+
+[ system ]
+Martini 3.0.0 CG run in water
+
+[ molecules ]
+PF04C        407
+PF05C        325
+PF06C        209
+PF08C	     209
+PF09C	     68
+PF04S	     130
+PF06S	     139
+PF08S	     139
+W           219712
+NA               4071
+CL               2445

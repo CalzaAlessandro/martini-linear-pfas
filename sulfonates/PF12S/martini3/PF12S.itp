@@ -1,0 +1,111 @@
+;;;;;; Martini 3 small molecule topology for PERFLUORODODECANESULFONIC-ACID (PFDoDS - PF12S)
+;
+; Note(s):
+;   For minimizations, you may use define=-DFLEXIBLE to use a non stiff-bond version of the topology that is more amenable to minimization.
+;
+
+[ moleculetype ]
+; molname    nrexcl
+PF12S         1
+
+[ atoms ]
+; nr type resnr residue atom cgnr charge mass
+   1  Q3n    1    PF12S   S1    1   -1
+   2  TX3    1    PF12S   F2    2    0
+   3  TX3    1    PF12S   F3    3    0
+   4  TX3    1    PF12S   F4    4    0
+   5  TX3    1    PF12S   F5    5    0
+   6  TX3    1    PF12S   F6    6    0
+   7  TX3    1    PF12S   F7    7    0
+   8  TX3    1    PF12S   F8    8    0
+   9  TX3    1    PF12S   F9    9    0
+  10  TX3    1    PF12S   F10  10    0
+  11  TX3    1    PF12S   F11  11    0
+  12  TX3    1    PF12S   F12  12    0
+  13  SX4    1    PF12S   F13  13    0
+
+#ifdef FLEXIBLE
+[bonds]
+; i  j  funct length
+  1  2   1     0.250   15000 ; cog
+  2  3   1     0.220   15000 ; cog
+  3  4   1     0.230   15000 ; cog
+  4  5   1     0.230   15000 ; cog
+  5  6   1     0.220   15000 ; cog
+  6  7   1     0.230   15000 ; cog
+  7  8   1     0.230   15000 ; cog
+  8  9   1     0.220   15000 ; cog
+  9 10   1     0.230   15000 ; cog
+ 10 11   1     0.220   15000 ; cog
+ 11 12   1     0.220   15000 ; cog
+ 12 13   1     0.230   15000 ; cog
+#endif
+
+#ifndef FLEXIBLE
+[constraints]
+; i  j  funct length
+  1  2   1     0.250   15000 ; cog
+  2  3   1     0.220   15000 ; cog
+  3  4   1     0.230   15000 ; cog
+  4  5   1     0.230   15000 ; cog
+  5  6   1     0.220   15000 ; cog
+  6  7   1     0.230   15000 ; cog
+  7  8   1     0.230   15000 ; cog
+  8  9   1     0.220   15000 ; cog
+  9 10   1     0.230   15000 ; cog
+ 10 11   1     0.220   15000 ; cog
+ 11 12   1     0.220   15000 ; cog
+ 12 13   1     0.230   15000 ; cog
+#endif
+
+[ angles ]
+; i  j  k  funct  ref.angle force_k
+  1  2  3    1        96        500
+  2  3  4    1        100       500
+  3  4  5    1        96        500
+  4  5  6    1        96        500
+  5  6  7    1        96        500
+  6  7  8    1        96        500
+  7  8  9    1        96        500
+  8  9 10    1        96        500
+  9 10 11    1        96        500
+ 10 11 12    1        96        500
+ 11 12 13    1        96        500
+
+
+[ dihedrals ]
+; i j k l  funct  ref.angle force_k multiplicity
+ 1 2 3 4      9       0       5      4
+ 1 2 3 4      9       0      10      3
+ 2 3 4 5      9       0      10      4
+ 2 3 4 5      9       0       1      3
+ 2 3 4 5      9      50       1      1 
+ 3 4 5 6      9       0      10      4
+ 3 4 5 6      9       0       5      3
+ 3 4 5 6      9      50       5      1
+ 4 5 6 7      9       0      10      4
+ 4 5 6 7      9       0       1      3
+ 4 5 6 7      9       0       1      1
+ 5 6 7 8      9       0      10      4
+ 5 6 7 8      9      50       5      3
+ 6 7 8 9      9       0      10      4
+ 7 8 9 10     9       0      10      4
+ 7 8 9 10     9       0       5      3
+ 8 9 10 11    9       0      10      4
+ 9 10 11 12   9       0      10      4
+ 9 10 11 12   9       0       5      3
+ 10 11 12 13  9       0       5      4
+ 10 11 12 13  9       0      10      3
+
+[ exclusions ]
+ 1 2 3 4
+ 2 3 4 5
+ 3 4 5 6
+ 4 5 6 7
+ 5 6 7 8
+ 6 7 8 9
+ 7 8 9 10
+ 8 9 10 11
+ 9 10 11 12
+ 10 11 12 13
+ 11 12 13

@@ -1,0 +1,14 @@
+#include "martini_v300/martini_v3.0.0.itp"
+#include "martini_v300/martini_v3.0.0_solvents_v1.itp"
+#include "martini_v300/martini_v3.0.0_ions_v1.itp"
+
+#include "PF08C.itp"
+
+[ system ]
+Martini 3.0.0 CG run in water
+
+[ molecules ]
+PF08C        162
+W           219109
+NA               4227
+CL               4065

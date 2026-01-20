@@ -1,0 +1,33 @@
+#include "martini_v300/martini_v3.0.0.itp"
+#include "martini_v300/martini_v3.0.0_solvents_v1.itp"
+#include "martini_v300/martini_v3.0.0_ions_v1.itp"
+
+
+#include "GRA.itp"
+#include "PF04C.itp"
+#include "PF05C.itp"
+#include "PF06C.itp"
+#include "PF08C.itp"
+#include "PF09C.itp"
+#include "PF04S.itp"
+#include "PF06S.itp"
+#include "PF08S.itp"
+#include "TW.itp"
+
+[ system ]
+Martini 3.0.0 CG run in water
+
+[ molecules ]
+GRA          1
+PFBA         407
+PFPEA        325
+PFHXA        209
+PFOA	     209
+PFNA	     68
+PFBS	     130
+PFHXS	     139
+PFOS	     139
+W           205742
+NA               4071
+CL               2445
+TW              23354

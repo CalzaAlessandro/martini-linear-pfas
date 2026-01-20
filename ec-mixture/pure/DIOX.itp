@@ -1,0 +1,42 @@
+;;;;;; Martini 3 small molecule topology for 1,4-DIOXANE (DIOX)
+;
+; Description:
+;   Topology with optimized bond lengths.
+;   
+; Reference(s):
+;   R Alessandri, et al., Adv. Theory Simul., 2022, DOI: https://doi.org/10.1002/adts.202100391
+;
+;   Souza, P.C.T.; Alessandri, R.; Barnoud, J.; Thallmair, S.; Faustino, I.; Grunewald, F.; Patmanidis, I.; Abdizadeh, H.; Bruininks, B.M.H.; 
+;   Wassenaar, T.A.; Kroon, P.C.; Melcr, J.; Nieto, V.; Corradi, V.; Khan, H.M.; Domanski, J.; Javanainen, M.; Martinez-Seara, H.; 
+;   Reuter, N.; Best, R.B.; Vattulainen, I.; Monticelli, L.; Periole, X.; Tieleman, D.P.; de Vries, A.H.; Marrink, S.J.;  Nature Methods 
+; 2021; 10.1038/s41592-021-01098-3
+;
+;
+; Category
+;       small molecule
+;
+; Name
+;       1,4-dioxane
+;
+; Alias
+;       DIOX
+;
+; Force field
+;       martini3001
+;
+; Version
+;       1.0
+;
+
+[moleculetype]
+; molname       nrexcl
+  DIOX            1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   SN3a  1    DIOX   O1    1     0 
+  2   SN3a  1    DIOX   O2    2     0  
+
+[bonds]
+; i j   funct  length   force.c.
+  1 2   1       0.300    5000

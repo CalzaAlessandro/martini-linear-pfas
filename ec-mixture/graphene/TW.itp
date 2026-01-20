@@ -1,0 +1,7 @@
+[ moleculetype ]
+; molname  	nrexcl
+  TW  	    	1
+
+[ atoms ]
+;id     type    resnr   residu  atom    cgnr    charge
+ 1      TW      1        TW       TW      1       0

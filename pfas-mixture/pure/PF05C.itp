@@ -1,0 +1,53 @@
+;;;;;; Martini 3 small molecule topology for PERFLUOROPENTANOIC-ACID (PFPeA - PF05C)
+;
+; Note(s):
+;   For minimizations, you may use define=-DFLEXIBLE to use a non stiff-bond version of the topology that is more amenable to minimization.
+;
+
+[ moleculetype ]
+; molname    nrexcl
+PF05C         1
+
+[ atoms ]
+; nr type resnr residue atom cgnr charge mass
+   1  SQ5n   1    PF05C   C1    1   -1
+   2  TX3    1    PF05C   F2    2    0
+   3  TX3    1    PF05C   F3    3    0
+   4  TX3    1    PF05C   F4    4    0
+   5  SX4    1    PF05C   F5    5    0
+
+#ifdef FLEXIBLE
+[bonds]
+; i  j  funct length
+  1  2   1      0.235     15000
+  2  3   1      0.220     15000
+  3  4   1      0.220     15000
+  4  5   1      0.230     15000
+#endif
+
+#ifndef FLEXIBLE
+[constraints]
+; i  j  funct length
+  1  2   1      0.235     15000
+  2  3   1      0.220     15000
+  3  4   1      0.220     15000
+  4  5   1      0.230     15000
+#endif
+
+[ angles ]
+; i  j  k  funct  ref.angle force_k
+  1  2  3    1        96        500  
+  2  3  4    1        100       500  
+  3  4  5    1        96        500  
+
+[ dihedrals ]
+; i j k l  funct  ref.angle force_k multiplicity
+ 1 2 3 4    9        0       10    4
+ 1 2 3 4    9        0       10    3
+ 2 3 4 5    9        0       5     4
+ 2 3 4 5    9        0       10    3
+
+[ exclusions ]
+ 1 2 3 4
+ 2 3 4 5
+ 3 4 5

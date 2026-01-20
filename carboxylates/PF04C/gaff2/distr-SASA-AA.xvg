@@ -1,0 +1,40 @@
+# This file was created Tue May 13 23:55:58 2025
+# Created by:
+#                     :-) GROMACS - gmx analyze, 2023.4 (-:
+# 
+# Executable:   /usr/local/gromacs-2023.4/bin/gmx
+# Data prefix:  /usr/local/gromacs-2023.4
+# Command line:
+#   gmx analyze -f SASA-AA.xvg -bw 0.01 -dist distr-SASA-AA.xvg
+# gmx analyze is part of G R O M A C S:
+#
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+#
+@    title "Distribution"
+@    xaxis  label ""
+@    yaxis  label ""
+@TYPE xy
+ 3.49  0
+ 3.5  0
+ 3.51  0.00299997
+ 3.52  0.0109999
+ 3.53  0.0719993
+ 3.54  0.318997
+ 3.55  1.15299
+ 3.56  3.14397
+ 3.57  6.81293
+ 3.58  11.9579
+ 3.59  16.3088
+ 3.6  18.3188
+ 3.61  16.6148
+ 3.62  12.1299
+ 3.63  7.45493
+ 3.64  3.60796
+ 3.65  1.37499
+ 3.66  0.482995
+ 3.67  0.160998
+ 3.68  0.0549995
+ 3.69  0.0109999
+ 3.7  0.00599994
+ 3.71  0.00099999
+ 3.72  0

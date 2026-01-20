@@ -1,0 +1,19 @@
+; Very approximate VanderWaals radii - the radii for the Martini R-, S-, and T-beads are 0.264, 0.230, and 0.191 nm
+; only used for drawing atoms as balls or for calculating atomic overlap.
+; longest matches are used
+; '???' or '*' matches any residue name
+; 'AAA' matches any protein residue name
+; Source: http://en.wikipedia.org/wiki/Van_der_Waals_radius
+; These come from A. Bondi, "van der Waals Volumes and Radii",
+; J. Phys. Chem. 68 (1964) 441-451
+??? S1 0.264
+??? F2 0.191
+??? F3 0.191
+??? F4 0.191
+??? F5 0.191
+??? F6 0.191
+??? F7 0.191
+??? F8 0.191
+??? F9 0.191
+??? F10 0.191
+??? F11 0.23

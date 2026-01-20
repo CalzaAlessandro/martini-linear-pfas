@@ -1,0 +1,77 @@
+;;;;;; Martini 3 small molecule topology for PERFLUOROOCTANONIC-ACID (PFOA - PF08C)
+;
+; Note(s):
+;   For minimizations, you may use define=-DFLEXIBLE to use a non stiff-bond version of the topology that is more amenable to minimization.
+;
+
+[ moleculetype ]
+; molname    nrexcl
+PF08C        1 
+
+[ atoms ]
+; nr type resnr residue atom cgnr charge mass
+   1  SQ5n   1   PF08C  C1    1   -1
+   2  TX3    1   PF08C  F2    2    0
+   3  TX3    1   PF08C  F3    3    0
+   4  TX3    1   PF08C  F4    4    0
+   5  TX3    1   PF08C  F5    5    0
+   6  TX3    1   PF08C  F6    6    0
+   7  TX3    1   PF08C  F7    7    0
+   8  SX4    1   PF08C  F8    8    0
+
+#ifdef FLEXIBLE
+[bonds]
+; i  j  funct length
+  1  2   1     0.235   15000 ; cog
+  2  3   1     0.220   15000 ; cog
+  3  4   1     0.230   15000 ; cog
+  4  5   1     0.220   15000 ; cog
+  5  6   1     0.230   15000 ; cog
+  6  7   1     0.220   15000 ; cog
+  7  8   1     0.230   15000 ; cog
+#endif
+
+#ifndef FLEXIBLE
+[constraints]
+; i  j  funct length
+  1  2   1     0.235   15000 ; cog
+  2  3   1     0.220   15000 ; cog
+  3  4   1     0.230   15000 ; cog
+  4  5   1     0.220   15000 ; cog
+  5  6   1     0.230   15000 ; cog
+  6  7   1     0.220   15000 ; cog
+  7  8   1     0.230   15000 ; cog
+#endif
+
+[ angles ]
+; i  j  k  funct  ref.angle force_k
+  1  2  3    1        96        500
+  2  3  4    1        100       500
+  3  4  5    1        96        500
+  4  5  6    1        96        500
+  5  6  7    1        96        500
+  6  7  8    1        96        500
+
+
+[ dihedrals ]
+; i j k l  funct  ref.angle force_k multiplicity
+ 1 2 3 4    9        0       5      4
+ 1 2 3 4    9        0       10     3
+ 2 3 4 5    9        0       10     4
+ 2 3 4 5    9        0       5      3
+ 3 4 5 6    9        0       10     4
+ 3 4 5 6    9        0       5      3
+ 4 5 6 7    9        0       10     4
+ 4 5 6 7    9        0       5      3
+ 5 6 7 8    9        0       5      4
+ 5 6 7 8    9        0       10     3
+
+
+[ exclusions ]
+ 1 2 3 4
+ 2 3 4 5
+ 3 4 5 6
+ 4 5 6 7
+ 5 6 7 8
+ 6 7 8
+

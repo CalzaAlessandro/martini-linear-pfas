@@ -1,0 +1,21 @@
+; Include forcefield parameters
+#include "amber03.ff/forcefield.itp"
+
+; Include chain topologies
+#include "PF11C-AA.itp"
+
+; Include water topology
+#include "amber03.ff/tip3p.itp"
+
+; Include ions topology
+#include "amber03.ff/ions.itp"
+
+[ system ]
+; Name
+One molecule in water
+
+[ molecules ]
+; Compound        #mols
+MOL               1
+SOL         4038
+NA               1

@@ -1,0 +1,18 @@
+#include "martini_v300/martini_v3.0.0.itp"
+#include "martini_v300/martini_v3.0.0_solvents_v1.itp"
+#include "martini_v300/martini_v3.0.0_ions_v1.itp"
+
+
+#include "GRA.itp"
+#include "PF08C_e.itp"
+#include "TW.itp"
+
+[ system ]
+Martini 3.0.0 CG run in water
+
+[ molecules ]
+GRA          1
+PF08C	     1
+W           18801
+NA               1
+TW              12569

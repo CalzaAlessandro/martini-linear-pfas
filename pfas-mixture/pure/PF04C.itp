@@ -1,0 +1,47 @@
+;;;;;; Martini 3 small molecule topology for PERFLUOROBUTANOIC-ACID (PFBA - PF04C)
+;
+; Note(s):
+;   For minimizations, you may use define=-DFLEXIBLE to use a non stiff-bond version of the topology that is more amenable to minimization.
+;
+
+[ moleculetype ]
+; molname    nrexcl
+PF04C        1 
+
+[ atoms ]
+; nr type resnr residue atom cgnr charge mass
+   1  SQ5n  1    PF04C  C1    1   -1	
+   2  TX3   1    PF04C  F2    2    0	
+   3  TX3   1    PF04C  F3    3    0	
+   4  SX4   1    PF04C  F4    4    0	
+
+#ifdef FLEXIBLE
+[bonds]
+; i  j  funct length
+  1  2   1      0.235     15000 
+  2  3   1      0.220     15000 
+  3  4   1      0.230     15000 
+#endif
+
+#ifndef FLEXIBLE
+[constraints]
+; i  j  funct length
+  1  2   1      0.235     15000
+  2  3   1      0.220     15000
+  3  4   1      0.230     15000
+#endif
+
+[ angles ]
+; i  j  k  funct  ref.angle force_k
+  1  2  3    1        96        500
+  2  3  4    1        96        500  
+
+[ dihedrals ]
+; i  j  k  l   funct   phi0  kphi  mult
+ 1 2 3 4    9        0       5       4
+ 1 2 3 4    9        0       10      3
+
+[ exclusions ]
+1 2 3 4
+2 3 4
+3 4
