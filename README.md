@@ -12,10 +12,21 @@ This repository contains Martini 3 linear PFAS models (carboxylates and sulfonat
 ready-to-run simulation systems and analysis outputs for PFAS and emerging contaminants mixtures, PFOA critical micelle concentration, PFAS vesicle formation
 and PFAS adsorption on graphene.
 
-If you use or wish to cite the Martini 3 parametrization framework for small molecules, please refer to:
-- R. Alessandri, J. Barnoud, A.S. Gertsen, I. Patmanidis, A.H. de Vries, P.C.T. Souza, S.J. Marrink.
-  "Martini 3 Coarse-Grained Force Field: Small Molecules", *Adv. Theory Simul.* **2022**, *5*, 2100391.
-  (open-access) https://doi.org/10.1002/adts.202100391
+## How to cite
+
+If you use this repository, please cite the associated manuscript:
+
+```bibtex
+@article{Calza2026,
+  title  = {Martini 3 coarse-grain model for linear PerFluoroAlkyl Substances},
+  author = {Calza, Alessandro and Calvaresi, Matteo and Zerbetto, Francesco and Marrink, Siewert J.},
+  doi    = {},
+  journal = {},
+  volume = {},
+  year   = {2026},
+  pages  = {},
+  note   = {Manuscript in preparation. Code and data: https://github.com/CalzaAlessandro/martini-linear-pfas (v1.0)}
+}
 
 ## Quick links
 

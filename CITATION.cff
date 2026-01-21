@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript."
+title: "martini-linear-pfas"
+repository-code: "https://github.com/CalzaAlessandro/martini-linear-pfas"
+type: dataset
+version: "v1.0"
+authors:
+  - family-names: "Calza"
+    given-names: "Alessandro"
+    affiliation: "Dipartimento di Chimica “Giacomo Ciamician,” Alma Mater Studiorum – Università di Bologna, 40129 Bologna, Italy; IRCCS Azienda Ospedaliero – Universitaria di Bologna, Preclinical & Translational Research in Oncology lab (PRO), 40138 Bologna, Italy"
+  - family-names: "Calvaresi"
+    given-names: "Matteo"
+    affiliation: "Dipartimento di Chimica “Giacomo Ciamician,” Alma Mater Studiorum – Università di Bologna, 40129 Bologna, Italy; IRCCS Azienda Ospedaliero – Universitaria di Bologna, Preclinical & Translational Research in Oncology lab (PRO), 40138 Bologna, Italy"
+  - family-names: "Zerbetto"
+    given-names: "Francesco"
+    affiliation: "Dipartimento di Chimica “Giacomo Ciamician,” Alma Mater Studiorum – Università di Bologna, 40129 Bologna, Italy"
+  - family-names: "Marrink"
+    given-names: "Siewert J."
+    affiliation: "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Nijenborgh 7, Groningen 9747 AG, The Netherlands"
+
+preferred-citation:
+  type: article
+  title: "Martini 3 coarse-grain model for linear PerFluoroAlkyl Substances"
+  authors:
+    - family-names: "Calza"
+      given-names: "Alessandro"
+    - family-names: "Calvaresi"
+      given-names: "Matteo"
+    - family-names: "Zerbetto"
+      given-names: "Francesco"
+    - family-names: "Marrink"
+      given-names: "Siewert J."
+  doi: ""
+  journal: ""
+  volume: ""
+  issue: ""
+  pages: ""
+  year: 2026
+  month: ""
+  publisher: ""
+  notes: "Repository: https://github.com/CalzaAlessandro/martini-linear-pfas"
+
