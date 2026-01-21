@@ -9,7 +9,7 @@
 # Martini 3 PFAS database
 
 This repository contains Martini 3 linear PFAS models (carboxylates and sulfonates) plus
-ready-to-run simulation systems and analysis outputs for PFAS mixtures, CMC setups,
+ready-to-run simulation systems and analysis outputs for PFAS and emerging contaminants mixtures, PFOA critical micelle concentration, PFAS vesicle formation
 and PFAS adsorption on graphene.
 
 If you use or wish to cite the Martini 3 parametrization framework for small molecules, please refer to:
@@ -34,8 +34,8 @@ If you use or wish to cite the Martini 3 parametrization framework for small mol
 </p>
 
 <p align="center">
-  <a href="./graphene-pfoa/"><b>Graphene–PFOA adsorpion</b></a>
-  <a href="./cmc-pfoa/"><b>CMC PFOA setups</b></a> 
+  <a href="./graphene-pfoa/"><b>Graphene–PFOA adsorpion</b></a> •
+  <a href="./cmc-pfoa/"><b>CMC PFOA setups</b></a>  •
   <a href="./vesicle/"><b>PFOA and PFDoDA vesicle</b></a> 
 </p>
 
@@ -65,7 +65,7 @@ If you use or wish to cite the Martini 3 parametrization framework for small mol
   (e.g., `counterions-only/`, `NaCl-0.25M/`, label variants).
 
 - `vesicle/`:
-  PFOA and PFDoDA 100mM + NaCl 0.15M setupss (contains `md.mdp`, `min.mdp`, `npt.mdp`, `start.gro`, `topol.top`, and component `*.itp`).
+  PFOA and PFDoDA 100mM + NaCl 0.15M setups (contains `md.mdp`, `min.mdp`, `npt.mdp`, `start.gro`, `topol.top`, and component `*.itp`).
 
 ## Contributing
 
