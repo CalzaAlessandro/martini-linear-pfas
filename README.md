@@ -27,6 +27,7 @@ If you use this repository, please cite the associated manuscript:
   pages  = {},
   note   = {Manuscript in preparation. Code and data: https://github.com/CalzaAlessandro/martini-linear-pfas (v1.0)}
 }
+```
 
 ## Quick links
 
