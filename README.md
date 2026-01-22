@@ -20,7 +20,7 @@ If you use this repository, please cite the associated manuscript:
 @article{Calza2026,
   title  = {Martini 3 coarse-grain model for linear PerFluoroAlkyl Substances},
   author = {Calza, Alessandro and Calvaresi, Matteo and Zerbetto, Francesco and Marrink, Siewert J.},
-  doi    = {},
+  doi    = {https://doi.org/10.26434/chemrxiv.10001487/v1},
   journal = {},
   volume = {},
   year   = {2026},
