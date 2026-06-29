@@ -6,26 +6,37 @@
   </div>
 </h1>
 
-# Martini 3 PFAS database
+<p align="center">
+  <a href="https://doi.org/10.1021/acs.jctc.6c00250">
+    <img src="https://img.shields.io/badge/DOI-10.1021%2Facs.jctc.6c00250-blue" alt="DOI: 10.1021/acs.jctc.6c00250">
+  </a>
+</p>
+
+# Martini 3 PFAS Database
 
 This repository contains Martini 3 linear PFAS models (carboxylates and sulfonates) plus
-ready-to-run simulation systems and analysis outputs for PFAS and emerging contaminants mixtures, PFOA critical micelle concentration, PFAS vesicle formation
+ready-to-run simulation systems and analysis outputs for PFAS and emerging contaminants mixtures, PFOA critical micelle concentration, PFAS vesicle formation,
 and PFAS adsorption on graphene.
 
 ## How to cite
 
-If you use this repository, please cite the associated manuscript:
+If you use this repository, please cite the associated article:
+
+Published article: https://doi.org/10.1021/acs.jctc.6c00250
 
 ```bibtex
 @article{Calza2026,
-  title  = {Martini 3 coarse-grain model for linear PerFluoroAlkyl Substances},
-  author = {Calza, Alessandro and Calvaresi, Matteo and Zerbetto, Francesco and Marrink, Siewert J.},
-  doi    = {https://doi.org/10.26434/chemrxiv.10001487/v1},
-  journal = {},
-  volume = {},
-  year   = {2026},
-  pages  = {},
-  note   = {Manuscript in preparation. Code and data: https://github.com/CalzaAlessandro/martini-linear-pfas (v1.0)}
+  title     = {Martini 3 Coarse-Grain Model For Linear Perfluoroalkyl Substances},
+  author    = {Calza, Alessandro and Calvaresi, Matteo and Zerbetto, Francesco and Marrink, Siewert J.},
+  journal   = {Journal of Chemical Theory and Computation},
+  volume    = {22},
+  number    = {10},
+  pages     = {5284--5298},
+  year      = {2026},
+  publisher = {American Chemical Society},
+  doi       = {10.1021/acs.jctc.6c00250},
+  url       = {https://doi.org/10.1021/acs.jctc.6c00250},
+  note      = {PMID: 41978348}
 }
 ```
 
@@ -46,9 +57,9 @@ If you use this repository, please cite the associated manuscript:
 </p>
 
 <p align="center">
-  <a href="./graphene-pfoa/"><b>Graphene–PFOA adsorpion</b></a> •
+  <a href="./graphene-pfoa/"><b>Graphene–PFOA adsorption</b></a> •
   <a href="./cmc-pfoa/"><b>CMC PFOA setups</b></a>  •
-  <a href="./vesicle/"><b>PFOA and PFDoDA vesicle</b></a> 
+  <a href="./vesicle/"><b>PFOA and PFDoDA vesicles</b></a>
 </p>
 
 ## Repo structure
@@ -64,10 +75,10 @@ If you use this repository, please cite the associated manuscript:
   - `martini3/` CG model and CG property runs (`PF??S.itp`, `PF??S.gro`, etc.)
 
 - `pfas-mixture/`:
-  Multi-PFAS systems with `graphene/` and without `pure/` (contains `md.mdp`, `min.mdp`, `npt.mdp`, `start.gro`, `topol.top`, and component `*.itp`).
+  Multi-PFAS systems in pure solution and with graphene (contains `md.mdp`, `min.mdp`, `npt.mdp`, `start.gro`, `topol.top`, and component `*.itp`).
 
 - `ec-mixture/`:
-  Emerging contaminants mixture systems (`graphene/` and without `pure/`), with `*.itp`, `mdp`, `start.gro`, `topol.top`.
+  Emerging contaminants mixture systems in pure solution and with graphene, with `*.itp`, `mdp`, `start.gro`, `topol.top`.
 
 - `graphene-pfoa/`:
   Graphene–PFOA adsorption plus analysis outputs (`*.xvg` such as profiles/histograms; `no-labels/`, `mep/`, `e-label/`).
@@ -77,7 +88,7 @@ If you use this repository, please cite the associated manuscript:
   (e.g., `counterions-only/`, `NaCl-0.25M/`, label variants).
 
 - `vesicle/`:
-  PFOA and PFDoDA 100mM + NaCl 0.15M setups (contains `md.mdp`, `min.mdp`, `npt.mdp`, `start.gro`, `topol.top`, and component `*.itp`).
+  PFOA and PFDoDA 100 mM + NaCl 0.15 M setups (contains `md.mdp`, `min.mdp`, `npt.mdp`, `start.gro`, `topol.top`, and component `*.itp`).
 
 ## Contributing
 

@@ -1,0 +1,30 @@
+HEADER    MARTINI 3 PF12S
+TITLE     PF12S coarse-grained structure from PF12S.gro
+CRYST1   49.755   49.755   49.755  90.00  90.00  90.00 P 1           1
+HETATM    1 S1   PF12S   1      35.990  24.120  24.740  1.00  0.00           S
+HETATM    2 F2   PF12S   1      37.140  22.810  22.950  1.00  0.00           F
+HETATM    3 F3   PF12S   1      36.640  20.830  23.790  1.00  0.00           F
+HETATM    4 F4   PF12S   1      37.370  21.170  25.940  1.00  0.00           F
+HETATM    5 F5   PF12S   1      38.380  19.120  26.200  1.00  0.00           F
+HETATM    6 F6   PF12S   1      37.710  18.850  28.280  1.00  0.00           F
+HETATM    7 F7   PF12S   1      38.190  21.020  28.880  1.00  0.00           F
+HETATM    8 F8   PF12S   1      40.270  21.070  27.890  1.00  0.00           F
+HETATM    9 F9   PF12S   1      41.240  22.240  29.480  1.00  0.00           F
+HETATM   10 F10  PF12S   1      39.620  23.880  29.540  1.00  0.00           F
+HETATM   11 F11  PF12S   1      39.440  24.100  27.350  1.00  0.00           F
+HETATM   12 F12  PF12S   1      41.590  24.280  26.950  1.00  0.00           F
+HETATM   13 F13  PF12S   1      41.960  26.040  28.380  1.00  0.00           F
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    8    7    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12
+END

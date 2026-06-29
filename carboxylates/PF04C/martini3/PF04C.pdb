@@ -1,0 +1,12 @@
+HEADER    MARTINI 3 PF04C
+TITLE     PF04C coarse-grained structure from PF04C.gro
+CRYST1   49.681   49.681   49.681  90.00  90.00  90.00 P 1           1
+HETATM    1 C1   PF04C   1      14.700  10.940   7.530  1.00  0.00           C
+HETATM    2 F2   PF04C   1      14.020   9.060   9.530  1.00  0.00           F
+HETATM    3 F3   PF04C   1      12.510  11.270  11.620  1.00  0.00           F
+HETATM    4 F4   PF04C   1       9.700   9.480  11.160  1.00  0.00           F
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3
+END

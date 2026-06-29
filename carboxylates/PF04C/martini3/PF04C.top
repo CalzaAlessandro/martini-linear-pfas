@@ -1,0 +1,8 @@
+#include "martini_v3.0.0.itp"
+#include "PF04C.itp"
+
+[ system ]
+Martini 3.0.0 PFAS only
+
+[ molecules ]
+PF04C         1

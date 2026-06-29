@@ -1,0 +1,18 @@
+HEADER    MARTINI 3 PF06S
+TITLE     PF06S coarse-grained structure from PF06S.gro
+CRYST1   49.827   49.827   49.827  90.00  90.00  90.00 P 1           1
+HETATM    1 S1   PF06S   1      37.030  28.180  37.140  1.00  0.00           S
+HETATM    2 F2   PF06S   1      37.180  30.660  36.830  1.00  0.00           F
+HETATM    3 F3   PF06S   1      35.320  30.840  35.670  1.00  0.00           F
+HETATM    4 F4   PF06S   1      35.760  29.360  33.960  1.00  0.00           F
+HETATM    5 F5   PF06S   1      37.750  30.170  33.480  1.00  0.00           F
+HETATM    6 F6   PF06S   1      37.420  30.290  31.310  1.00  0.00           F
+HETATM    7 F7   PF06S   1      36.750  28.110  31.030  1.00  0.00           F
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6
+END

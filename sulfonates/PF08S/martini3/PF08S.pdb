@@ -1,0 +1,22 @@
+HEADER    MARTINI 3 PF08S
+TITLE     PF08S coarse-grained structure from PF08S.gro
+CRYST1   49.730   49.730   49.730  90.00  90.00  90.00 P 1           1
+HETATM    1 S1   PF08S   1      22.170  27.030  15.000  1.00  0.00           S
+HETATM    2 F2   PF08S   1      21.330  24.730  14.490  1.00  0.00           F
+HETATM    3 F3   PF08S   1      19.480  25.400  13.520  1.00  0.00           F
+HETATM    4 F4   PF08S   1      18.740  26.800  15.190  1.00  0.00           F
+HETATM    5 F5   PF08S   1      16.610  26.260  15.060  1.00  0.00           F
+HETATM    6 F6   PF08S   1      16.420  26.530  12.790  1.00  0.00           F
+HETATM    7 F7   PF08S   1      14.510  27.620  12.910  1.00  0.00           F
+HETATM    8 F8   PF08S   1      15.220  29.060  14.420  1.00  0.00           F
+HETATM    9 F9   PF08S   1      17.050  29.800  13.240  1.00  0.00           F
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    8    7    9
+CONECT    9    8
+END

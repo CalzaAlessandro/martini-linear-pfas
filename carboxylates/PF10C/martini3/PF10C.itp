@@ -1,5 +1,27 @@
 ;;;;;; Martini 3 small molecule topology for PERFLUORODECANOIC-ACID (PFDA - PF10C)
 ;
+; Description:
+;   Martini 3 topology with optimized bonded parameters for linear perfluoroalkyl substances.
+;
+; Reference(s):
+;   Calza, A.; Calvaresi, M.; Zerbetto, F.; Marrink, S. J. Martini 3 Coarse-Grain Model For Linear Perfluoroalkyl Substances.
+;   J. Chem. Theory Comput. 2026, 22, 5284-5298. DOI: https://doi.org/10.1021/acs.jctc.6c00250
+;
+; Category
+;   Surfactants
+;
+; Name
+;   perfluorodecanoate
+;
+; Alias
+;   PFDA - PF10C
+;
+; Force field
+;   martini3001
+;
+; Version
+;   1.0
+;
 ; Note(s):
 ;   For minimizations, you may use define=-DFLEXIBLE to use a non stiff-bond version of the topology that is more amenable to minimization.
 ;

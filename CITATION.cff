@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the associated manuscript."
+message: "If you use this repository, please cite the associated article."
 title: "martini-linear-pfas"
 repository-code: "https://github.com/CalzaAlessandro/martini-linear-pfas"
 type: dataset
@@ -20,7 +20,7 @@ authors:
 
 preferred-citation:
   type: article
-  title: "Martini 3 coarse-grain model for linear PerFluoroAlkyl Substances"
+  title: "Martini 3 Coarse-Grain Model For Linear Perfluoroalkyl Substances"
   authors:
     - family-names: "Calza"
       given-names: "Alessandro"
@@ -30,13 +30,12 @@ preferred-citation:
       given-names: "Francesco"
     - family-names: "Marrink"
       given-names: "Siewert J."
-  doi: "https://doi.org/10.26434/chemrxiv.10001487/v1"
-  journal: ""
-  volume: ""
-  issue: ""
-  pages: ""
+  doi: "10.1021/acs.jctc.6c00250"
+  journal: "Journal of Chemical Theory and Computation"
+  volume: "22"
+  issue: "10"
+  pages: "5284-5298"
   year: 2026
-  month: ""
-  publisher: ""
+  month: 5
+  publisher: "American Chemical Society"
   notes: "Repository: https://github.com/CalzaAlessandro/martini-linear-pfas"
-

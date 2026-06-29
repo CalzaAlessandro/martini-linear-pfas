@@ -1,0 +1,8 @@
+#include "martini_v3.0.0.itp"
+#include "PF09S.itp"
+
+[ system ]
+Martini 3.0.0 PFAS only
+
+[ molecules ]
+PF09S         1

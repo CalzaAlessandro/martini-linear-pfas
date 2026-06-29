@@ -1,0 +1,18 @@
+HEADER    MARTINI 3 PF07C
+TITLE     PF07C coarse-grained structure from PF07C.gro
+CRYST1   49.715   49.715   49.715  90.00  90.00  90.00 P 1           1
+HETATM    1 C1   PF07C   1      28.260  25.900   7.100  1.00  0.00           C
+HETATM    2 F2   PF07C   1      26.580  24.390   6.690  1.00  0.00           F
+HETATM    3 F3   PF07C   1      26.160  23.990   8.770  1.00  0.00           F
+HETATM    4 F4   PF07C   1      28.250  23.400   9.500  1.00  0.00           F
+HETATM    5 F5   PF07C   1      28.650  21.920   7.930  1.00  0.00           F
+HETATM    6 F6   PF07C   1      29.540  20.440   9.250  1.00  0.00           F
+HETATM    7 F7   PF07C   1      31.060  21.820  10.210  1.00  0.00           F
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6
+END
