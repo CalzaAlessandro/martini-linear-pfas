@@ -96,5 +96,18 @@ Contributions are welcome as well as bug reports and pull requests.
 
 ## License
 
-This repository is released under the Apache License, Version 2.0 (Apache-2.0).
-See: https://www.apache.org/licenses/LICENSE-2.0.txt
+The original PFAS models, simulation setups, analysis outputs and documentation
+in this repository are licensed under
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
+
+Reuse and adaptation, including commercial use, are permitted with appropriate
+credit, a link to the license and an indication of any changes. The associated
+article and authors are listed under [How to cite](#how-to-cite) and in
+[CITATION.cff](CITATION.cff).
+
+Third-party force-field files, including those in `martini_v300/`, retain their
+original terms and attribution.
+
+Earlier revisions distributed under
+[Apache 2.0](https://github.com/CalzaAlessandro/martini-linear-pfas/blob/c5b472765ac5ec830d2096b1dff8fd4b9fef72c4/LICENSE)
+remain available under that license.

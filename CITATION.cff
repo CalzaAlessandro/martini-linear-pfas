@@ -3,6 +3,7 @@ message: "If you use this repository, please cite the associated article."
 title: "martini-linear-pfas"
 repository-code: "https://github.com/CalzaAlessandro/martini-linear-pfas"
 type: dataset
+license: CC-BY-4.0
 version: "v1.0"
 authors:
   - family-names: "Calza"
