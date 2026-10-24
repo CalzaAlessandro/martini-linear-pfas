@@ -1,18 +1,14 @@
-<h1 align="center">
-  <div>
-    <a href="https://github.com/CalzaAlessandro/martini-linear-pfas" target="_blank">
-      <img src="./LinearPFAS.png" alt="Martini3 Linear PFAS" height="150">
-    </a>
-  </div>
-</h1>
+<h1 align="center">Martini 3 PFAS Database</h1>
+
+<p align="center">
+  <img src="./LinearPFAS.png" alt="Graphical abstract of the PFAS paper: atomistic-to-Martini mapping, model validation and multicomponent systems" width="100%">
+</p>
 
 <p align="center">
   <a href="https://doi.org/10.1021/acs.jctc.6c00250">
     <img src="https://img.shields.io/badge/DOI-10.1021%2Facs.jctc.6c00250-blue" alt="DOI: 10.1021/acs.jctc.6c00250">
   </a>
 </p>
-
-# Martini 3 PFAS Database
 
 This repository contains Martini 3 linear PFAS models (carboxylates and sulfonates) plus
 ready-to-run simulation systems and analysis outputs for PFAS and emerging contaminants mixtures, PFOA critical micelle concentration, PFAS vesicle formation,
