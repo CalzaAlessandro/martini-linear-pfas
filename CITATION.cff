@@ -4,7 +4,7 @@ title: "martini-linear-pfas"
 repository-code: "https://github.com/CalzaAlessandro/martini-linear-pfas"
 type: dataset
 license: Apache-2.0
-version: "v1.0"
+version: "1.0.0"
 authors:
   - family-names: "Calza"
     given-names: "Alessandro"
@@ -38,5 +38,6 @@ preferred-citation:
   pages: "5284-5298"
   year: 2026
   month: 5
-  publisher: "American Chemical Society"
+  publisher:
+    name: "American Chemical Society"
   notes: "Repository: https://github.com/CalzaAlessandro/martini-linear-pfas"
