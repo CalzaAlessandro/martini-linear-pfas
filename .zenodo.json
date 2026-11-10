@@ -1,0 +1,38 @@
+{
+  "title": "Martini 3 models for linear PFAS",
+  "description": "Martini 3 models and GROMACS simulation files for linear perfluoroalkyl substances, associated with the article identified below.",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "Calza, Alessandro",
+      "affiliation": "Dipartimento di Chimica “Giacomo Ciamician,” Alma Mater Studiorum – Università di Bologna, 40129 Bologna, Italy; IRCCS Azienda Ospedaliero – Universitaria di Bologna, Preclinical & Translational Research in Oncology lab (PRO), 40138 Bologna, Italy"
+    },
+    {
+      "name": "Calvaresi, Matteo",
+      "affiliation": "Dipartimento di Chimica “Giacomo Ciamician,” Alma Mater Studiorum – Università di Bologna, 40129 Bologna, Italy; IRCCS Azienda Ospedaliero – Universitaria di Bologna, Preclinical & Translational Research in Oncology lab (PRO), 40138 Bologna, Italy"
+    },
+    {
+      "name": "Zerbetto, Francesco",
+      "affiliation": "Dipartimento di Chimica “Giacomo Ciamician,” Alma Mater Studiorum – Università di Bologna, 40129 Bologna, Italy"
+    },
+    {
+      "name": "Marrink, Siewert J.",
+      "affiliation": "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Nijenborgh 7, Groningen 9747 AG, The Netherlands"
+    }
+  ],
+  "license": "apache-2.0",
+  "access_right": "open",
+  "version": "1.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/CalzaAlessandro/martini-linear-pfas",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.1021/acs.jctc.6c00250",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ]
+}
