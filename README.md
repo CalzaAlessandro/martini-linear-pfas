@@ -5,6 +5,7 @@ ready-to-run simulation systems and analysis outputs for PFAS and emerging conta
 and PFAS adsorption on graphene.
 
 <p align="center">
+  <a href="https://doi.org/10.5281/zenodo.22033083"><img src="https://img.shields.io/badge/Archive-10.5281%2Fzenodo.22033083-2457A7?style=flat" alt="Archive DOI: 10.5281/zenodo.22033083"></a>
   <a href="https://doi.org/10.1021/acs.jctc.6c00250"><img src="https://img.shields.io/badge/DOI-10.1021%2Facs.jctc.6c00250-2457A7?style=flat" alt="Article DOI: 10.1021/acs.jctc.6c00250"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-607D8B?style=flat" alt="License: Apache-2.0"></a>
 </p>
