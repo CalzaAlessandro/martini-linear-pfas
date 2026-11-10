@@ -1,62 +1,32 @@
-<h1 align="center">Martini 3 PFAS Database</h1>
-
-<p align="center">
-  <img src="./LinearPFAS.png" alt="Graphical abstract of the PFAS paper: atomistic-to-Martini mapping, model validation and multicomponent systems" width="100%">
-</p>
-
-<p align="center">
-  <a href="https://doi.org/10.1021/acs.jctc.6c00250">
-    <img src="https://img.shields.io/badge/DOI-10.1021%2Facs.jctc.6c00250-blue" alt="DOI: 10.1021/acs.jctc.6c00250">
-  </a>
-</p>
+<h1 align="center">Martini 3 models for linear PFAS</h1>
 
 This repository contains Martini 3 linear PFAS models (carboxylates and sulfonates) plus
 ready-to-run simulation systems and analysis outputs for PFAS and emerging contaminants mixtures, PFOA critical micelle concentration, PFAS vesicle formation,
 and PFAS adsorption on graphene.
 
-## How to cite
+<p align="center">
+  <a href="https://doi.org/10.1021/acs.jctc.6c00250"><img src="https://img.shields.io/badge/DOI-10.1021%2Facs.jctc.6c00250-2457A7?style=flat" alt="Article DOI: 10.1021/acs.jctc.6c00250"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-607D8B?style=flat" alt="License: Apache-2.0"></a>
+</p>
 
-If you use this repository, please cite the associated article:
-
-Published article: https://doi.org/10.1021/acs.jctc.6c00250
-
-```bibtex
-@article{Calza2026,
-  title     = {Martini 3 Coarse-Grain Model For Linear Perfluoroalkyl Substances},
-  author    = {Calza, Alessandro and Calvaresi, Matteo and Zerbetto, Francesco and Marrink, Siewert J.},
-  journal   = {Journal of Chemical Theory and Computation},
-  volume    = {22},
-  number    = {10},
-  pages     = {5284--5298},
-  year      = {2026},
-  publisher = {American Chemical Society},
-  doi       = {10.1021/acs.jctc.6c00250},
-  url       = {https://doi.org/10.1021/acs.jctc.6c00250},
-  note      = {PMID: 41978348}
-}
-```
+<p align="center">
+  <img src="./LinearPFAS.png" alt="Graphical abstract of the PFAS paper: atomistic-to-Martini mapping, model validation and multicomponent systems" width="100%">
+</p>
 
 ## Quick links
 
-<p align="center">
-  <a href="./LIBRARY.md"><b>Lookup table (models)</b></a>
-</p>
+| What you need | Where to start |
+|---|---|
+| Model lookup table | [Model library](LIBRARY.md) |
+| PFCA models | [Carboxylates](carboxylates/) |
+| PFSA models | [Sulfonates](sulfonates/) |
+| Multi-PFAS simulation systems | [PFAS mixtures](pfas-mixture/) |
+| Emerging contaminant simulation systems | [Emerging contaminant mixtures](ec-mixture/) |
+| Graphene–PFOA adsorption | [Systems and analysis outputs](graphene-pfoa/) |
+| PFOA critical micelle concentration | [CMC setups](cmc-pfoa/) |
+| PFOA and PFDoDA vesicles | [Vesicle setups](vesicle/) |
 
-<p align="center">
-  <a href="./carboxylates/"><b>PFCA models (carboxylates)</b></a> •
-  <a href="./sulfonates/"><b>PFSA models (sulfonates)</b></a>
-</p>
-
-<p align="center">
-  <a href="./pfas-mixture/"><b>PFAS mixture systems</b></a> •
-  <a href="./ec-mixture/"><b>Emerging contaminants mixture</b></a>
-</p>
-
-<p align="center">
-  <a href="./graphene-pfoa/"><b>Graphene–PFOA adsorption</b></a> •
-  <a href="./cmc-pfoa/"><b>CMC PFOA setups</b></a>  •
-  <a href="./vesicle/"><b>PFOA and PFDoDA vesicles</b></a>
-</p>
+[Repository structure](#repo-structure) · [How to cite](#how-to-cite) · [License](#license)
 
 ## Repo structure
 
@@ -85,6 +55,28 @@ Published article: https://doi.org/10.1021/acs.jctc.6c00250
 
 - `vesicle/`:
   PFOA and PFDoDA 100 mM + NaCl 0.15 M setups (contains `md.mdp`, `min.mdp`, `npt.mdp`, `start.gro`, `topol.top`, and component `*.itp`).
+
+## How to cite
+
+If you use this repository, please cite the associated article:
+
+Published article: https://doi.org/10.1021/acs.jctc.6c00250
+
+```bibtex
+@article{Calza2026,
+  title     = {Martini 3 Coarse-Grain Model For Linear Perfluoroalkyl Substances},
+  author    = {Calza, Alessandro and Calvaresi, Matteo and Zerbetto, Francesco and Marrink, Siewert J.},
+  journal   = {Journal of Chemical Theory and Computation},
+  volume    = {22},
+  number    = {10},
+  pages     = {5284--5298},
+  year      = {2026},
+  publisher = {American Chemical Society},
+  doi       = {10.1021/acs.jctc.6c00250},
+  url       = {https://doi.org/10.1021/acs.jctc.6c00250},
+  note      = {PMID: 41978348}
+}
+```
 
 ## Contributing
 
