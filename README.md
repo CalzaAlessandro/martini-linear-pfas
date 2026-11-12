@@ -1,8 +1,7 @@
 <h1 align="center">Martini 3 models for linear PFAS</h1>
 
-This repository contains Martini 3 linear PFAS models (carboxylates and sulfonates) plus
-ready-to-run simulation systems and analysis outputs for PFAS and emerging contaminants mixtures, PFOA critical micelle concentration, PFAS vesicle formation,
-and PFAS adsorption on graphene.
+Martini 3 models for linear PFAS carboxylates and sulfonates, with GROMACS systems
+for mixtures, micelles, vesicles and graphene adsorption.
 
 <p align="center">
   <a href="https://doi.org/10.5281/zenodo.22033083"><img src="https://img.shields.io/badge/Archive-10.5281%2Fzenodo.22033083-2457A7?style=flat" alt="Archive DOI: 10.5281/zenodo.22033083"></a>
@@ -14,9 +13,29 @@ and PFAS adsorption on graphene.
   <img src="docs/images/banner.png" alt="Illustrative progression from atomistic PFAS through coarse-grained mapping to micelle formation" width="100%">
 </p>
 
-[Article graphical abstract](LinearPFAS.png)
+## Contents
 
-## Quick links
+- [Getting started](#getting-started)
+- [Usage and examples](#usage-and-examples)
+- [Data and files](#data-and-files)
+- [Methods and validation](#methods-and-validation)
+- [Documentation](#documentation)
+- [Citation](#citation)
+- [Contributing](#contributing)
+- [License](#license)
+
+<a id="quick-links"></a>
+
+## Getting started
+
+Choose a molecule in the [model library](LIBRARY.md), then open its
+`martini3/` folder for coarse-grained topology and coordinate files.
+The matching `gaff2/` folder contains the atomistic reference.
+
+The [carboxylate](carboxylates/) and [sulfonate](sulfonates/) collections are
+organized by residue name; the model library links each name to its files.
+
+## Usage and examples
 
 | What you need | Where to start |
 |---|---|
@@ -29,9 +48,11 @@ and PFAS adsorption on graphene.
 | PFOA critical micelle concentration | [CMC setups](cmc-pfoa/) |
 | PFOA and PFDoDA vesicles | [Vesicle setups](vesicle/) |
 
-[Repository structure](#repo-structure) · [How to cite](#how-to-cite) · [License](#license)
+[Article graphical abstract](LinearPFAS.png).
 
-## Repo structure
+<a id="repo-structure"></a>
+
+## Data and files
 
 - `carboxylates/`:
   PFAS carboxylates (PFCA), each molecule has:
@@ -59,11 +80,35 @@ and PFAS adsorption on graphene.
 - `vesicle/`:
   PFOA and PFDoDA 100 mM + NaCl 0.15 M setups (contains `md.mdp`, `min.mdp`, `npt.mdp`, `start.gro`, `topol.top`, and component `*.itp`).
 
-## How to cite
+## Methods and validation
 
-If you use this repository, please cite the associated article:
+The associated [article](https://doi.org/10.1021/acs.jctc.6c00250) describes
+the Martini 3 model parameterization and validation. Atomistic reference files
+and coarse-grained model files are kept together for each molecule.
+The application folders contain the supplied simulation systems and analysis outputs.
 
-Published article: https://doi.org/10.1021/acs.jctc.6c00250
+## Documentation
+
+- [Model library](LIBRARY.md)
+- [Simulation systems and file layout](#data-and-files)
+- [Associated article](https://doi.org/10.1021/acs.jctc.6c00250)
+
+<a id="how-to-cite"></a>
+
+## Citation
+
+If you use these models, cite the associated article:
+
+Calza, A., Calvaresi, M., Zerbetto, F. and Marrink, S. J. (2026).
+*Martini 3 Coarse-Grain Model For Linear Perfluoroalkyl Substances*.
+Journal of Chemical Theory and Computation, 22(10), 5284–5298.
+[Article DOI: 10.1021/acs.jctc.6c00250](https://doi.org/10.1021/acs.jctc.6c00250).
+
+Model archive: [10.5281/zenodo.22033083](https://doi.org/10.5281/zenodo.22033083).
+Citation metadata: [CITATION.cff](CITATION.cff).
+
+<details>
+<summary>BibTeX</summary>
 
 ```bibtex
 @article{Calza2026,
@@ -81,9 +126,11 @@ Published article: https://doi.org/10.1021/acs.jctc.6c00250
 }
 ```
 
+</details>
+
 ## Contributing
 
-Contributions are welcome as well as bug reports and pull requests.
+Report problems or propose changes through [GitHub Issues](https://github.com/CalzaAlessandro/martini-linear-pfas/issues). Include the affected file or command and a short description.
 
 ## License
 
