@@ -11,8 +11,10 @@ and PFAS adsorption on graphene.
 </p>
 
 <p align="center">
-  <img src="./LinearPFAS.png" alt="Graphical abstract of the PFAS paper: atomistic-to-Martini mapping, model validation and multicomponent systems" width="100%">
+  <img src="docs/images/banner.png" alt="Illustrative progression from atomistic PFAS through coarse-grained mapping to micelle formation" width="100%">
 </p>
+
+[Article graphical abstract](LinearPFAS.png)
 
 ## Quick links
 
