@@ -1,14 +1,16 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite the associated article."
-title: "martini-linear-pfas"
+title: "Martini 3 models for linear PFAS"
 repository-code: "https://github.com/CalzaAlessandro/martini-linear-pfas"
 type: dataset
 license: Apache-2.0
 version: "1.0.0"
+date-released: "2026-08-20"
 authors:
   - family-names: "Calza"
     given-names: "Alessandro"
     affiliation: "Dipartimento di Chimica “Giacomo Ciamician,” Alma Mater Studiorum – Università di Bologna, 40129 Bologna, Italy; IRCCS Azienda Ospedaliero – Universitaria di Bologna, Preclinical & Translational Research in Oncology lab (PRO), 40138 Bologna, Italy"
+    orcid: "https://orcid.org/0009-0002-3700-3240"
   - family-names: "Calvaresi"
     given-names: "Matteo"
     affiliation: "Dipartimento di Chimica “Giacomo Ciamician,” Alma Mater Studiorum – Università di Bologna, 40129 Bologna, Italy; IRCCS Azienda Ospedaliero – Universitaria di Bologna, Preclinical & Translational Research in Oncology lab (PRO), 40138 Bologna, Italy"
