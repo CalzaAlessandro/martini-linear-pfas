@@ -1,0 +1,35 @@
+name: Model or file issue
+description: Report an error in a topology, coordinate file, MDP or table.
+title: "[Issue] "
+body:
+  - type: markdown
+    attributes:
+      value: Include the exact repository path and the GROMACS error or discrepancy. Omit large trajectories.
+  - type: input
+    id: path
+    attributes:
+      label: Affected file or folder
+      placeholder: e.g. carboxylates/PF8C/martini3/PF8C.itp
+    validations:
+      required: true
+  - type: input
+    id: software
+    attributes:
+      label: GROMACS version and OS
+      placeholder: e.g. GROMACS 2024.3 on Ubuntu 24.04
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the issue
+      placeholder: Describe what failed or appears inconsistent, and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Command or error message
+      render: shell
+    validations:
+      required: false

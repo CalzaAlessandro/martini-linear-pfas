@@ -10,7 +10,7 @@ for mixtures, micelles, vesicles and graphene adsorption.
 </p>
 
 <p align="center">
-  <img src="docs/images/banner.png" alt="Illustrative progression from atomistic PFAS through coarse-grained mapping to micelle formation" width="100%">
+  <img src="docs/images/banner.webp" alt="Illustrative progression from atomistic PFAS through coarse-grained mapping to micelle formation" width="100%">
 </p>
 
 ## Contents
@@ -130,7 +130,7 @@ Citation metadata: [CITATION.cff](CITATION.cff).
 
 ## Contributing
 
-Report problems or propose changes through [GitHub Issues](https://github.com/CalzaAlessandro/martini-linear-pfas/issues). Include the affected file or command and a short description.
+Report problems or propose changes through [GitHub Issues](https://github.com/CalzaAlessandro/martini-linear-pfas/issues) and see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
